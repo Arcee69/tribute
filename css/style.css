@@ -1,0 +1,344 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    letter-spacing: 0px;
+    background-color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.color-code1 {
+    color: #fff;
+}
+.dark-scarf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.justify {
+    text-align: justify;
+}
+.container {
+    width: 94%;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+}
+.bg-color-code1 {
+    background-color: #666;
+    line-height: 2;
+}
+.bg-color-code2 {
+    background-color: #fff;
+    line-height: 2;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color:gray;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.white {
+    color: white;
+}
+.black {
+    color: #111;
+}
+.img1 {
+    width: 100%;
+    height: auto;
+}
+.img2 {
+    width: 50%;
+    height: auto;
+}
+.center {
+    margin-left: 25%;
+}
+.card {
+    width: 94%;
+    position: relative;
+    float: left;
+    margin-left: 3%;    
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1);
+    padding-bottom: 13px;
+    border-radius: 3px; 
+}
+.bottom-50 {
+    padding-bottom: 50px;
+}
+.align {
+    text-align: center;
+}
+@media (min-width: 900px) {
+    .col-1 {
+        width: 8.33%;
+        position: relative;
+        float: left;
+    }
+    .col-2 {
+        width: 16.66%;
+        position: relative;
+        float: left;
+    }
+    .col-3 {
+        width: 25%;
+        position: relative;
+        float: left;
+    }
+    .col-4 {
+        width: 33.33%;
+        position: relative;
+        float: left;
+    }
+    .col-5 {
+        width: 41.67%;
+        position: relative;
+        float: left;
+    }
+    .col-6 {
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+    .col-7 {
+        width: 58.33%;
+        position: relative;
+        float: left;
+    }
+    .col-8 {
+        width: 66.67%;
+        position: relative;
+        float: left;
+    }
+    .col-9 {
+        width: 75%;
+        position: relative;
+        float: left;
+    }
+    .col-10 {
+        width: 83.33%;
+        position: relative;
+        float: left;
+    }
+    .col-11 {
+        width: 91.67%;
+        position: relative;
+        float: left;
+    }
+    .col-12 {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .off-1 {
+        margin-left: 8.33%;
+    }
+    .off-2 {
+        margin-left: 16.67;
+    }
+    .off-3 {
+        margin-left: 25%;
+    }
+    .off-4 {
+        margin-left: 33.33%;
+    }
+    .off-5 {
+        margin-left: 41.67%; 
+    }
+    .down-1 {
+        margin-top: 1%; 
+    }
+    .down-2 {
+        margin-top: 2%;
+    }
+    .down-3 {
+        margin-top: 3%; 
+    }
+    .down-4 {
+        margin-top: 4%;
+    }
+    .down-5 {
+        margin-top: 5%;
+    }
+    .down-6 {
+        margin-top: 6%;
+    }
+    .down-7 {
+        margin-top: 7%;
+    }
+    .down-8 {
+        margin-top: 8%;
+    }
+    .down-9 {
+        margin-top: 9%;
+    }
+    .down-10 {
+        margin-top: 10%;
+    }
+    .down-11 {
+        margin-top: 11%;
+    }
+    .down-12 {
+        margin-top: 12%;
+    }
+    .down-13 {
+        margin-top: 13%;
+    }
+    .down-14 {
+        margin-top: 14%;
+    }
+    .down-15 {
+        margin-top: 15%;
+    }
+    .down-16 {
+        margin-top: 16%;
+    }
+    .down-17 {
+        margin-top: 17%;
+    }
+    .down-18 {
+        margin-top: 18%;
+    }
+    .down-19 {
+        margin-top: 19%;
+    }
+    .down-20 {
+        margin-top: 20%;
+    }
+}
+@media (max-width: 899px) {
+    .hidden-xs {
+        display: none;
+    }
+    .xs-1 {
+        width: 8.33%;
+        position: relative;
+        float: left;
+    }
+    .xs-2 {
+        width: 16.67%;
+        position: relative;
+        float: left;
+    }
+    .xs-3 {
+        width: 25%;
+        position: relative;
+        float: left;
+    }
+    .xs-4 {
+        width: 33.33%;
+        position: relative;
+        float: left;
+    }
+    .xs-5 {
+        width: 41.67%;
+        position: relative;
+        float: left;
+    }
+    .xs-6 {
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+    .xs-7 {
+        width: 58.33%;
+        position: relative;
+        float: left;
+    }
+    .xs-8 {
+        width: 66.67%;
+        position: relative;
+        float: left;
+    }
+    .xs-9 {
+        width: 75%;
+        position: relative;
+        float: left;
+    }
+    .xs-10 {
+        width: 83.33%;
+        position: relative;
+        float: left;
+    }
+    .xs-11 {
+        width: 91.67%;
+        position: relative;
+        float: left;
+    }
+    .xs-12 {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .xsoff-1 {
+        margin-left: 8.33%;
+    }
+    .xsoff-2 {
+        margin-left: 16.67;
+    }
+    .xsoff-3 {
+        margin-left: 25%;
+    }
+    .xsoff-4 {
+        margin-left: 33.33%;
+    }
+    .xsdown-1 {
+        margin-top: 1%; 
+    }
+    .xsdown-2 {
+        margin-top: 2%;
+    }
+    .xsdown-3 {
+        margin-top: 3%; 
+    }
+    .xsdown-4 {
+        margin-top: 4%;
+    }
+    .xsdown-5 {
+        margin-top: 5%;
+    }
+    .xsdown-6 {
+        margin-top: 6%;
+    }
+    .xsdown-7 {
+        margin-top: 7%;
+    }
+    .xsdown-8 {
+        margin-top: 8%;
+    }
+    .xsdown-9 {
+        margin-top: 9%;
+    }
+    .xsdown-10 {
+        margin-top: 10%;
+    }
+    .xsdown-11 {
+        margin-top: 11%;
+    }
+    .xsdown-12 {
+        margin-top: 12%;
+    }
+    .px20 {
+        font-size: 20px;
+    }
+    .px25 {
+        font-size: 25px;
+    }
+    .xs-container {
+        width: 94%;
+        position: relative;
+        float: left;
+        margin-left: 3%;
+    }
+}
